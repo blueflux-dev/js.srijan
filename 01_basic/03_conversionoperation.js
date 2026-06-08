@@ -33,3 +33,41 @@ console.log(typeof stringnumber); // string
 //bhale hi dikhne me 33 number jaisa h but wo string me convert ho chuka h 
 
 
+// ************* OPERATIONS ***************
+
+let value = 3
+let negvalue = -value
+console.log(negvalue); // -3
+
+console.log(2**3); // 2^3 power 
+
+let str1 = "hello"
+let str2 = " srijan"
+
+let str3 = str1 + str2 //bas add hota h subtract nhi 
+
+console.log(str3); // hello srijan
+console.log(1+"2"); // 12
+
+console.log("1"+2+2); // 122 how ?
+console.log(1+2+"2"); //32 again how?
+
+//so jo pahle h jaise number to usi hisab se kam hoga
+
+console.log(true); //true
+console.log(+true); //1 agar true me pre increment then 1 and post pe error aa jayega
+
+let gamecounter = 100;
+gamecounter++;
+console.log(gamecounter); // 101
+
+
+
+
+
+
+
+
+
+
+
