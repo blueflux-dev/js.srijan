@@ -47,5 +47,34 @@ myObj->object,
 heros[]-> object,
 func-> function */
 
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack Memory (Primitive sabke liye ) , heap Memory (refernce type datatypes) 
+
+let myYoutubename = "first"
+let anothername = myYoutubename // value copy hoke paas hua 
+anothername = "second"
+console.log(myYoutubename);
+console.log(anothername);
+
+let user = {
+    email : "user@gmail.com", 
+    upi : "user@ybl"
+} // jitne bhi non primitive type h yeh apne aap hi heap storage me chal jate h 
+
+// user to store stack me hoga lekin wo jo andar ke cheezon ko point krega wo heap me rhenege matlab heap me point krega 
+
+
+let usertwo = user
+/// aese hi usertwo banega to stack me but point heap storage ke same address ko  krega 
+
+usertwo.email = "srijan@gmai.comm"
+
+console.log(user.email); // srijan@gmai.comm
+console.log(usertwo.email); // srijan@gmai.comm
+
+// pass by refernce hua tha and dono milke same address ko point kr rhe the 
+
+
 
 
